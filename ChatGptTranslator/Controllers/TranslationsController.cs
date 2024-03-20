@@ -20,7 +20,7 @@ namespace ChatGptTranslator.Controllers
             var msg = $"Hey ChatGPT, please, give me just the translation of the following text into {request.Language}: \n{request.Query}";
 
 
-            var apiKey = "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";
+            var apiKey = "";
             OpenAIProxy chatOpenAI = new OpenAIProxy(apiKey);
 
             chatOpenAI.StackMessages(new Standard.AI.OpenAI.Models.Services.Foundations.ChatCompletions.ChatCompletionMessage

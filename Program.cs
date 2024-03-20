@@ -16,7 +16,7 @@ namespace ChatGptDemo
             var msg = "what is factorial of number 10";
 
 
-            var apiKey = "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";
+            var apiKey = "";
             OpenAIProxy chatOpenAI = new OpenAIProxy(apiKey);
 
             for (int i = 0; i < 3; i++)
